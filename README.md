@@ -1,6 +1,6 @@
 # crawler
 
-## Baixe o repositório execultando:
+## Baixe o repositório executando:
 ### $ git clone https://github.com/mauriliosfc/crawler.git
 
 ## após baixar o repositório execute os comandos:
