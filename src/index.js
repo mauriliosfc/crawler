@@ -6,10 +6,10 @@ fetchData(url).then((res) => {
     const html = res.data;
     const $ = cheerio.load(html);
 
-    const statsTable = $('.bastian-page div div div div');
+    const page = $('.bastian-page div div div div');
     let arr = []
 
-    statsTable.each(function () {
+    page.each(function () {
         let title = $(this).find('.feed-post-body-title').text();
         let subtitulo = $(this).find('.feed-post-body-resumo').text();
         let url = $(this).find('.feed-post-body-title').attr('href');
