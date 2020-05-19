@@ -1,5 +1,9 @@
 # crawler
 
+## Baixe o repositório execultando:
+### $ git clone https://github.com/mauriliosfc/crawler.git
+
 ## após baixar o repositório execute os comandos:
+### cd crawler
 ### $ npm install
-### src/index.js
+### $ node src/index.js
